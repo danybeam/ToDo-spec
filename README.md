@@ -15,7 +15,9 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ----
 
-This template is available under the Creative Commons Attribution-ShareAlike 4.0 International Public
+This project is available under the Creative Commons Attribution-ShareAlike 4.0 International Public
 License, meaning you are free to use it for any purpose, commercial or non-commercial under the same or similar license.  
 If you use it in your project, I'd love to hear about it! (Find me here: [@danybeam](https://twitter.com/danybeam))  
 But you are in no way required to do so.
+
+This project CONTRIBUTING guidelines have been adapted from [nayafia's template](https://github.com/nayafia/contributing-template)
