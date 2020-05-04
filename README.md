@@ -2,7 +2,7 @@
 
 ![License cc by sa 4.0](https://img.shields.io/badge/license-cc%20by%20sa%204.0-blue)
 
-This is the repository for the "To do format specification". (name subject to change)
+This is the repository for the "Task format specification".  
 This specification is intended to provide a common format to define a task to be parsed by a "to do list" style software, thus ensuring interoperability between multiple projects.
 
 ### Disclaimer
