@@ -20,7 +20,9 @@ Any compatible markdown visualizer is RECOMMENDED.
 1. TASK MUST be present, denotes the title/brief description of the task itself.
 2. TASKS SHOULD NOT distinguish between states beyond what could be derived from the START STRINGS list in [section 3 of Style](##Style).
 3. DESCRIPTION is an OPTIONAL LABEL, adds aditional context or information for the TASK.
-4. Additional LABELS MAY be defined at discretion of the developper as SWITCHES, meaning their presence or lack there of acts respectively as a true or false condition.
+4. Any LABEL involving time must be compliant with [ISO 8601](https://www.w3.org/TR/NOTE-datetime).
+   1. LABELS involving time SHOULD follow [ISO 8601](https://www.w3.org/TR/NOTE-datetime) "Complete date plus hours and minutes" specification (YYYY-MM-DDThh:mmTZD).
+5. Additional LABELS MAY be defined at discretion of the developper as SWITCHES, meaning their presence or lack there of acts respectively as a true or false condition.
    1. these kind of LABELS.
 
 ## Style
