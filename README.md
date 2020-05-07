@@ -5,6 +5,8 @@
 This is the repository for the "Task format specification".  
 This specification is intended to provide a common format to define a task to be parsed by a "to do list" style software, thus ensuring interoperability between multiple projects.
 
+The specification can be found in the document [Task Spacification.md](./Task%20Specification.md)
+
 ## Examples
 
 ----
