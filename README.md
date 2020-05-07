@@ -1,9 +1,31 @@
-# To Do Specification Document
+# Task Specification Document
 
 ![License cc by sa 4.0](https://img.shields.io/badge/license-cc%20by%20sa%204.0-blue)
 
 This is the repository for the "Task format specification".  
 This specification is intended to provide a common format to define a task to be parsed by a "to do list" style software, thus ensuring interoperability between multiple projects.
+
+## Examples
+
+----
+
+Basic Task:
+
+``` Text
+-Print Hello World
+```
+
+Task with Description:
+
+```Text
+-Learn to write code @Description:Learn to write Python or Java
+```
+
+Task with due date:
+
+```Text
+- Chemistry homework @description: Exercises 1~10 @DueDate:2020-02-11T14:30-08:00
+```
 
 ### Disclaimer
 
