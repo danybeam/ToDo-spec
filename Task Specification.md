@@ -22,13 +22,14 @@ Any compatible markdown visualizer is RECOMMENDED.
    1. What any specific START STRING represents is left at the discretion of the impplementation.
 3. DESCRIPTION is an OPTIONAL LABEL, adds aditional context or information for the TASK.
 4. DUE DATE is an OPTIONAL LABEL representing the date by which the TASK must be completed.
-5. Any LABEL involving time must be compliant with [ISO 8601](https://www.w3.org/TR/NOTE-datetime).
+5. LABELS MUST be case insensitive when parsing.
+6. Any LABEL involving time must be compliant with [ISO 8601](https://www.w3.org/TR/NOTE-datetime).
    1. LABELS involving time SHOULD follow [ISO 8601](https://www.w3.org/TR/NOTE-datetime) "Complete date plus hours and minutes" specification (YYYY-MM-DDThh:mmTZD).
-6. Additional LABELS MAY be defined at discretion of the developper as SWITCHES, meaning their presence or lack there of acts respectively as a true or false condition.
+7. Additional LABELS MAY be defined at discretion of the developper as SWITCHES, meaning their presence or lack there of acts respectively as a true or false condition.
    1. these kind of LABELS SHALL NOT contain values.
-7. Additional LABELS MAY be defined at discretion of the developper as arbitrary PROPERTIES
+8. Additional LABELS MAY be defined at discretion of the developper as arbitrary PROPERTIES
    1. these kind of LABELS MUST be followed with a value.
-8. Every TASK and related properties MUST be written on a single line on a file.
+9. Every TASK and related properties MUST be written on a single line on a file.
    1. TASKS SHOULD NOT have aditional characters to indicate their end.
    2. Lines are REQUIRED to follow Unix new line style.
       1. Lines MUST be separated with a line return character. ('/n')
@@ -55,7 +56,6 @@ Any compatible markdown visualizer is RECOMMENDED.
    1. It is RECOMMENDED that they are separated with the character ':'.
 5. PROPERTIES MUST have a LABEL after the prefix.
    1. PROPERTIES MUST NOT have a space/blank character between the prefix and their LABEL.
-   2. These LABELS MUST be case insensitive when parsing.
 
 ### Switches
 
