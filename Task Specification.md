@@ -63,3 +63,12 @@ Any compatible markdown visualizer is RECOMMENDED.
 ### Switches
 
 1. SWITCHES MUST be prefixed by the character '+'.
+
+## Escapped characters
+
+1. RESERVED CHARACTERS MUST be escaped with a '\\'
+   1. RESERVED CHARACTERS are
+      1. '\\'
+      2. '@'
+      3. '-'
+      4. '+'
