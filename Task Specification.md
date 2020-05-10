@@ -26,7 +26,7 @@ Any compatible markdown visualizer is RECOMMENDED.
 5. DUE DATE is an OPTIONAL LABEL representing the date by which the TASK must be completed.
 6. LABELS MUST be case insensitive when parsing.
 7. Any LABEL involving time must be compliant with [ISO 8601](https://www.w3.org/TR/NOTE-datetime).
-   1. LABELS involving time SHOULD follow [ISO 8601](https://www.w3.org/TR/NOTE-datetime) "Complete date plus hours and minutes" specification (YYYY-MM-DDThh:mmTZD).
+   1. LABELS involving time SHOULD follow [ISO 8601](https://www.w3.org/TR/NOTE-datetime) "Complete date plus hours and minutes" specification (YYYY-MM-DDThh:mm).
 8. Additional LABELS MAY be defined at discretion of the developper as SWITCHES, meaning their presence or lack there of acts respectively as a true or false condition.
     1. these kind of LABELS SHALL NOT contain values.
 9. Additional LABELS MAY be defined at discretion of the developper as arbitrary PROPERTIES
