@@ -17,21 +17,23 @@ Any compatible markdown visualizer is RECOMMENDED.
 
 ## Property Specification
 
-1. TASK MUST be present, denotes the title/brief description of the task itself.
-2. TASKS SHOULD NOT distinguish between states beyond what could be derived from the START STRINGS list in [section 3 of Tasks](###Tasks).
+1. TASK, DESCRIPTION and DUE DATE must appear only once per task.
+   1. Arbitrary/custom properties MAY be repetead
+2. TASK MUST be present, denotes the title/brief description of the task itself.
+3. TASKS SHOULD NOT distinguish between states beyond what could be derived from the START STRINGS list in [section 3 of Tasks](###Tasks).
    1. What any specific START STRING represents is left at the discretion of the impplementation.
-3. DESCRIPTION is an OPTIONAL LABEL, adds aditional context or information for the TASK.
-4. DUE DATE is an OPTIONAL LABEL representing the date by which the TASK must be completed.
-5. LABELS MUST be case insensitive when parsing.
-6. Any LABEL involving time must be compliant with [ISO 8601](https://www.w3.org/TR/NOTE-datetime).
+4. DESCRIPTION is an OPTIONAL LABEL, adds aditional context or information for the TASK.
+5. DUE DATE is an OPTIONAL LABEL representing the date by which the TASK must be completed.
+6. LABELS MUST be case insensitive when parsing.
+7. Any LABEL involving time must be compliant with [ISO 8601](https://www.w3.org/TR/NOTE-datetime).
    1. LABELS involving time SHOULD follow [ISO 8601](https://www.w3.org/TR/NOTE-datetime) "Complete date plus hours and minutes" specification (YYYY-MM-DDThh:mmTZD).
-7. Additional LABELS MAY be defined at discretion of the developper as SWITCHES, meaning their presence or lack there of acts respectively as a true or false condition.
+8. Additional LABELS MAY be defined at discretion of the developper as SWITCHES, meaning their presence or lack there of acts respectively as a true or false condition.
    1. these kind of LABELS SHALL NOT contain values.
-8. Additional LABELS MAY be defined at discretion of the developper as arbitrary PROPERTIES
-   1. these kind of LABELS MUST be followed with a value.
-9. Every TASK and related properties MUST be written on a single line on a file.
-   1. TASKS SHOULD NOT have aditional characters to indicate their end.
-   2. Lines are REQUIRED to follow Unix new line style.
+9.  Additional LABELS MAY be defined at discretion of the developper as arbitrary PROPERTIES
+   2. these kind of LABELS MUST be followed with a value.
+10. Every TASK and related properties MUST be written on a single line on a file.
+   3. TASKS SHOULD NOT have aditional characters to indicate their end.
+   4. Lines are REQUIRED to follow Unix new line style.
       1. Lines MUST be separated with a line return character. ('/n')
       2. Lines SHALL NOT have a carriage return character. ('/r')
 
