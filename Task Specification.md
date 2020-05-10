@@ -51,7 +51,7 @@ Any compatible markdown visualizer is RECOMMENDED.
 ### Properties
 
 1. Every PROPERTY MUST indicate their LABEL.
-   1. TASKS are the ONLY PROPERTY excempt of this rule. For TASK is OPTIONAL.
+   1. TASKS are the ONLY PROPERTY excempt of this rule. For TASK it is OPTIONAL.
 2. PROPERTIES MUST be prefixed by the '@' character. (e.g. DESCRIPTION)
 3. PROPERTIES MAY have a space character between the prefix character and the TASK or PROPERTY behind them.
 4. PROPERTIES  SHOULD have a suffix to separate LABELS from value.
