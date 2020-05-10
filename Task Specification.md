@@ -36,6 +36,7 @@ Any compatible markdown visualizer is RECOMMENDED.
     2. Lines are REQUIRED to follow Unix new line style.
     3. Lines MUST be separated with a line return character. ('/n')
     4. Lines SHALL NOT have a carriage return character. ('/r')
+11. TASKS MUST NOT repeat LABELS
 
 ## Style
 
