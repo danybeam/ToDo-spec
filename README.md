@@ -26,7 +26,7 @@ Task with Description:
 Task with due date:
 
 ```Text
-- Chemistry homework @description: Exercises 1~10 @DueDate:2020-02-11T14:30-08:00
+-Chemistry homework @description: Exercises 1~10 @DueDate:2020-02-11T14:30
 ```
 
 ### Disclaimer
