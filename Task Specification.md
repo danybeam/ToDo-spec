@@ -27,14 +27,14 @@ Any compatible markdown visualizer is RECOMMENDED.
 7. Any LABEL involving time must be compliant with [ISO 8601](https://www.w3.org/TR/NOTE-datetime).
    1. LABELS involving time SHOULD follow [ISO 8601](https://www.w3.org/TR/NOTE-datetime) "Complete date plus hours and minutes" specification (YYYY-MM-DDThh:mm).
 8. Additional LABELS MAY be defined at discretion of the developper as SWITCHES, meaning their presence or lack there of acts respectively as a true or false condition.
-    1. these kind of LABELS SHALL NOT contain values.
+    1. these kind of LABELS MUST NOT contain values.
 9. Additional LABELS MAY be defined at discretion of the developper as arbitrary PROPERTIES
     1. these kind of LABELS MUST be followed with a value.
 10. Every TASK and related properties MUST be written on a single line on a file.
     1. TASKS SHOULD NOT have aditional characters to indicate their end.
     2. Lines are REQUIRED to follow Unix new line style.
       1. Lines MUST be separated with a line return character. ('/n')
-      2. Lines SHALL NOT have a carriage return character. ('/r')
+      2. Lines MUST NOT have a carriage return character. ('/r')
 11. TASKS MUST NOT repeat LABELS
 
 ## Style
@@ -52,8 +52,9 @@ Any compatible markdown visualizer is RECOMMENDED.
 
 1. Every PROPERTY MUST indicate their LABEL.
    1. TASKS are the ONLY PROPERTY excempt of this rule. For TASK it MUST be absent.
-2. PROPERTIES MUST be prefixed by the '@' character. (e.g. DESCRIPTION => @Description:description)
-3. PROPERTIES MAY have a space character between the prefix character and the TASK or PROPERTY behind them.
+2. PROPERTIES MUST be prefixed by the '@' character. (e.g. DESCRIPTION => @Description:Foo)
+3. PROPERTIES MUST have a separator character to differentiate between diferent properties.
+   1. The RECOMMENDED character is ';'
 4. PROPERTIES  SHOULD have a suffix to separate LABELS from value.
    1. It is RECOMMENDED that they are separated with the character ':'.
    2. PROPERTIES MUST NOT have a blank space separating the LABEL, the SUFFIX nor the VALUE. 
@@ -62,5 +63,6 @@ Any compatible markdown visualizer is RECOMMENDED.
 
 ### Switches
 
-1. SWITCHES MUST be prefixed by the character '+'.
-2. SWITCHES MUST NOT have a space between their prefix and their LABEL
+1. SWITCHES are a special  kind of PROPERTY
+2. SWITCHES MUST be prefixed by the character '+'. (e.g. +isRepeatable)
+3. SWITCHES MUST NOT have a space between their prefix and their LABEL
