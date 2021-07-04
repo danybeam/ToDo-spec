@@ -19,7 +19,7 @@ Any compatible markdown visualizer is RECOMMENDED.
 
 1. TASK, DESCRIPTION and DUE DATE must appear only once per task.
 2. TASK MUST be present, denotes the title/brief description of the task itself.
-3. TASKS SHOULD NOT distinguish between states beyond what could be derived from the START STRINGS list in [section 3 of Tasks](###Tasks).
+3. TASKS SHOULD NOT distinguish between states beyond what could be derived from the START STRINGS list in [section 1 of Tasks](###Tasks).
    1. What any specific START STRING represents is left at the discretion of the implementation.
 4. DESCRIPTION is an OPTIONAL LABEL, adds aditional context or information for the TASK.
 5. DUE DATE is an OPTIONAL LABEL representing the date by which the TASK must be completed.
